@@ -1,0 +1,191 @@
+/* COMMON CLASSES */
+.transition_03 {
+    transition: 0.3s ease all;
+}
+
+/* REMOVE ARROW INPUT TYPE NUMBER */
+.remove_input_number_arrow::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.remove_input_number_arrow[type="number"] {
+    appearance: textfield;
+    -moz-appearance: textfield;
+}
+
+/* COMMENT CSS START HERE */
+.comment_sort_by {
+    border: 2px solid #4cc973;
+    border-radius: 3px;
+    padding: 8px 18px;
+}
+
+.ws_nowrap {
+    white-space: nowrap !important;
+}
+
+.method_pro_comment_sort_by {
+    border-radius: 100px;
+    padding: 8px 18px;
+    color: #809bce;
+}
+
+.user_profile {
+    max-width: 91px;
+    border: 1px solid #00000052;
+}
+
+.add_comment_input_parent {
+    border: 1px solid #00000075;
+    border-radius: 114px;
+    padding: 23px 34px;
+}
+
+.add_comment_input:focus {
+    outline: none !important;
+}
+
+.add_comment_input::placeholder {
+    color: #020507;
+}
+
+.send_message_arrow {
+    max-width: 42px;
+    pointer-events: none;
+}
+
+.replay_parent {
+    border-left: 1px solid #00000026;
+}
+
+.replay_user_profile {
+    max-width: 63px;
+    border: 0.7px solid #00000052;
+}
+
+.show_more_comments_parent {
+    padding: 10px;
+    max-width: 611px;
+}
+
+.comment_replay_like_buttons:hover {
+    opacity: 0.7;
+}
+
+.toastify {
+    max-width: 100%;
+}
+
+.fs_footer_btn {
+    font-size: 48px;
+}
+
+/* FOOTER CSS START HERE */
+.footer_logo {
+    max-width: 281px;
+}
+
+.footer_border_line {
+    height: 1px;
+}
+
+.bg_footer {
+    background: linear-gradient(160.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
+}
+
+.footer_para {
+    max-width: 1138px;
+}
+
+.lg_w_260 {
+    min-width: 260px;
+}
+
+.mw_1440 {
+    max-width: 1440px;
+}
+
+.method_pro_footer_logo {
+    width: 82px;
+    height: 82px;
+}
+
+.max_w_261 {
+    max-width: 261px;
+}
+
+.white_text_shadow {
+    text-shadow: 0px 1px 25px #ffffff;
+}
+
+@media (max-width: 991.98px) {
+    .user_profile {
+        max-width: 65px;
+    }
+
+    .add_comment_input_parent {
+        padding: 15px 20px;
+    }
+
+    .send_message_arrow {
+        max-width: 35px;
+    }
+
+    .fs_footer_btn {
+        font-size: 32px;
+    }
+
+    .mw_1440 {
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .user_profile {
+        max-width: 60px;
+    }
+
+    .send_message_arrow {
+        max-width: 30px;
+    }
+
+    .replay_user_profile {
+        max-width: 50px;
+    }
+
+    .fs_footer_btn {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .footer_logo {
+        max-width: 230px;
+    }
+
+    .user_profile {
+        max-width: 40px;
+    }
+
+    .add_comment_input_parent {
+        padding: 8.5px 15px;
+    }
+
+    .send_message_arrow {
+        max-width: 20px;
+    }
+
+    .replay_user_profile {
+        max-width: 30px;
+    }
+
+    .toastify {
+        margin-left: 20px;
+    }
+
+    .fs_footer_btn {
+        font-size: 18px;
+    }
+}

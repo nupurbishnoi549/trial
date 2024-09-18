@@ -1,0 +1,408 @@
+/* ======== COMMON CLASSES ===== */
+.leading_174 {
+    line-height: 174%;
+}
+
+.leading_120 {
+    line-height: 120%;
+}
+
+.leading_114 {
+    line-height: 114%;
+}
+
+.border_blue {
+    border: 1px solid var(--bluish-cyan) !important;
+}
+
+.radius_xl {
+    border-radius: 24px !important;
+}
+
+.max_w_1920 {
+    max-width: 1920px;
+}
+
+.opacity_05 {
+    opacity: 50%;
+}
+
+.opacity_06 {
+    opacity: 60%;
+}
+
+.pointer_event_none {
+    pointer-events: none;
+}
+
+.modal-backdrop {
+    z-index: 0 !important;
+}
+
+.modal {
+    background-color: #00000080 !important;
+}
+
+.mt_button_icon {
+    margin-top: -6px;
+}
+
+/* ======== HERO CSS ====== */
+.arrow_size {
+    height: 192px;
+    width: 192px;
+}
+
+.bg_hero {
+    background-image: url("../images/method-pro/hero-bg.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text_shadow_white {
+    text-shadow: 0px 1.33px 33.3px #ffffff;
+}
+
+.text_shadow_blue {
+    text-shadow: 0px 4px 4px #00000040, 0px 0px 20px #00bfff, 0px 0px 20px #00bfff,
+        0px 0px 0px #00bfff, 0px 0px 0px #00bfff, 0px 1px 0px #00bfff,
+        0px 1px 0px #00bfff;
+}
+
+.text_bottom_line {
+    max-width: 880px;
+    height: 1px;
+}
+
+.max_w_hero {
+    max-width: 1092px;
+}
+
+.video_container_hero {
+    max-width: 982px;
+    border: 1px solid black;
+    border-radius: 24px !important;
+}
+
+.video_shadow {
+    box-shadow: 0px 4px 25px 0px var(--bluish-cyan);
+}
+
+.border_white_gray {
+    border: 3px solid var(--white-gray);
+    border-radius: 24px;
+}
+
+.border_white {
+    border-right: 2px solid white;
+    border-top: 0px solid white;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 24px;
+}
+
+.access_button {
+    padding: 16.5px 28px;
+}
+
+.access_button:hover {
+    background-color: var(--bluish-cyan);
+}
+
+.hero_button {
+    border: 4px solid white;
+    border-radius: 32px;
+    background-color: #36cef0;
+    transition: all 300ms linear;
+    box-shadow: 0px 4px 25px 0px var(--bluish-cyan);
+}
+
+.max_w_heading {
+    max-width: 875px;
+}
+
+.get_start_button {
+    padding: 10.6px 24px;
+    box-shadow: 0px 4px 25px 0px var(--bluish-cyan);
+}
+
+.get_start_button:hover {
+    background-color: var(--bluish-cyan);
+}
+
+/* =========================================================== logo slider code  ===================================================== */
+.logo_slider_section {
+    background: linear-gradient(102.5deg, #6e5df6 -2.76%, #00ffe1 97.18%);
+    padding: 50px 0;
+}
+
+.common_slider_img {
+    width: 395px;
+    height: 177px;
+    animation-name: logo_slider;
+}
+
+.logo_slider {
+    gap: 20px;
+    width: auto;
+    animation-duration: 40s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: slide;
+    --slider-inner-width: 1920px;
+    --slider-speed: 60s;
+    animation: scroll linear infinite var(--slider-speed);
+    width: calc(2 * var(--slider-inner-width));
+    transition: animation-play-state ease 110s;
+}
+
+.logo_slider:hover {
+    animation-play-state: paused;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc((0px - var(--slider-inner-width)) - 0%));
+    }
+}
+
+/* =========================================================== live result code  ===================================================== */
+.live_result_spacing {
+    margin-top: 32px;
+}
+
+.live_result_section {
+    padding: 123px 0;
+}
+
+.result_container {
+    max-width: 1134px;
+    padding: 0 24px;
+}
+
+.result_image {
+    width: 109px;
+    height: 88px;
+}
+
+.blue_ball {
+    width: 22px;
+    height: 22px;
+    background: linear-gradient(175.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
+    border-radius: 50%;
+}
+
+.live_dot {
+    width: 22px;
+    height: 22px;
+    background-color: var(--dark-green);
+}
+
+.get_start_live_button {
+    padding: 14px 26px;
+}
+
+.get_start_live_button {
+    background: linear-gradient(0deg, #36cef0, #36cef0);
+    border: 2px solid #ffffff;
+}
+
+.get_start_live_button:hover {
+    box-shadow: unset !important;
+}
+
+
+.percentage_txt {
+    font-weight: 700;
+    font-size: var(--fs-xxl);
+    color: var(--bluish-cyan);
+}
+
+.mute-unmute-icon {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.blue_tick_box p {
+    padding-top: 10px;
+}
+
+.blue_tick_box:hover::after {
+    opacity: 1;
+}
+
+.blue_tick_box:hover p {
+    color: white !important;
+}
+
+.blue_tick_box:hover .svg_box svg path {
+    fill: white;
+}
+
+.blue_tick_box:hover span {
+    color: white !important;
+}
+
+/* common spacing  */
+.common-section-spacing {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+/* ========= VIDEO SECTION ====== */
+.small_play_icon {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+
+.big_play_icon {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+
+/* ========== MEDIA QURIES ====== */
+@media (max-width: 1399.99px) {
+    .live_result_section {
+        padding: 64px 0;
+    }
+}
+
+@media (max-width: 1199.99px) {
+    .common_slider_img {
+        width: 298px;
+        height: 104px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .mt_button_icon {
+        margin-top: -3px;
+    }
+
+    .blue_tick_box {
+        width: 328px;
+        padding: 0 50px;
+    }
+
+    .live_result_section {
+        padding: 80px 0px 0px 0px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .live_dot {
+        width: 16px;
+        height: 16px;
+    }
+
+    .common_slider_img {
+        width: 268px;
+        height: 107px;
+    }
+
+    .live_result_section {
+        padding: 48px 0px 0px 0px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .fs_hero_button {
+        font-size: 16px !important;
+    }
+
+    .access_button {
+        padding: 12px 20px;
+    }
+
+    .access_arrow {
+        width: 22px;
+    }
+
+    .blue_tick {
+        width: 16px;
+    }
+
+    .play_icon {
+        width: 20px;
+    }
+
+    .live_dot {
+        width: 14px;
+        height: 14px;
+    }
+
+    .get_start_live_button {
+        padding: 10px 18px;
+    }
+
+    .group_people_icon {
+        width: 80px;
+    }
+
+    .radius_xl {
+        border-radius: 16px !important;
+    }
+
+    .common_slider_img {
+        width: 219px;
+        height: 82px;
+    }
+
+    .live_result_section {
+        padding: 48px 0px;
+    }
+}
+
+@media (min-width: 576px) {
+    .common-section-spacing {
+        padding-top: 56px;
+        padding-bottom: 56px;
+    }
+}
+
+@media (min-width: 768px) {
+    .common-section-spacing {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+}
+
+@media (min-width: 768px) {
+    .common-section-spacing {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .common-section-spacing {
+        padding-top: 160px;
+        padding-bottom: 160px;
+    }
+}

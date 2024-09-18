@@ -1,0 +1,254 @@
+/* Become a profitable AI Arbitrage Winner! */
+.arbitrage_winner_heading {
+    max-width: 500px;
+}
+
+.arbitrage_winner_paragraph {
+    max-width: 690px;
+}
+
+.reviewSwiper {
+    padding-top: 69px;
+}
+
+/* slider section  */
+.mySwiper {
+    padding: 0 20px;
+}
+
+.slider_profile_img {
+    width: 44px;
+    height: 44px;
+}
+
+.slider_box {
+    max-width: 891px;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    padding: 24px;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+
+.slider_box::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+    border: 2px solid transparent;
+    background: linear-gradient(133.83deg, #00b9ff 3.77%, #6f69f2 81.07%) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+    z-index: -1;
+}
+
+.swiper-slide {
+    height: auto;
+}
+
+.swiper-slide.swiper-slide-active .slider_box {
+    box-shadow: 10px 10px 0px 0px #90aeff;
+    background: linear-gradient(102.5deg,
+            rgba(110, 93, 246, 0.2) -2.76%,
+            rgba(0, 255, 225, 0.2) 97.18%);
+}
+
+.sponsor_slide {
+    display: none;
+}
+
+.sponsor_slide,
+.sponsor_slide_img {
+    max-width: 1250px;
+    column-gap: 57px;
+    row-gap: 30px;
+}
+
+.sponsor_slide .slick-track {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.slider_box:hover {
+    border: 1px solid transparent;
+    box-shadow: 0px 25px 39px -9px #00000017;
+}
+
+.review_slide .slick-track {
+    display: flex !important;
+}
+
+.review_slide .slick-slide {
+    height: inherit !important;
+}
+
+.px_12 {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+/*============= SEE MORE =========== */
+
+.review-description {
+    overflow: hidden;
+    max-height: 4.5em;
+    line-height: 1.5em;
+    position: relative;
+    transition: max-height 0.3s ease;
+}
+
+.review-description.expanded {
+    max-height: none;
+}
+
+.show-more {
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* ============ BACK TO TOP CSS =========== */
+
+/* BACK-TO-TOP */
+.back_top_top {
+    background: var(--bluish-cyan);
+    box-shadow: 0px 2px 10px 0px #00000026;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    z-index: 40;
+    animation: back-to-top infinite 1.2s linear alternate;
+}
+
+.text_line_4 {
+    overflow: hidden;
+    -webkit-line-clamp: 4;
+    /* Show only 4 lines */
+    line-clamp: 4;
+}
+
+@keyframes back-to-top {
+    0% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@media (max-width: 1400px) {
+    .gap_44 {
+        gap: 8px;
+    }
+
+    .slider_profile_img {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .slider_profile_img {
+        width: 104px;
+        height: 104px;
+    }
+
+    .sponsor_slide {
+        display: flex;
+    }
+
+    .sponsor_slide_img {
+        column-gap: 25px;
+    }
+
+    .slider_box {
+        padding: 24px;
+    }
+
+    .slider_profile_img {
+        height: 80px;
+        width: 80px;
+    }
+}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 767.9px) {
+    .slider_profile_img {
+        width: 84px;
+        height: 91px;
+    }
+
+    .back_top_top {
+        width: 35px;
+        height: 35px;
+    }
+
+    .back_top_top img {
+        width: 45px;
+    }
+
+    .sponsor_slide {
+        padding-bottom: 32px;
+    }
+
+    .slider_box {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 639.98px) {
+    .reviewSwiper {
+        padding: 50px 40px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .reviewSwiper {
+        padding: 40px 12px;
+    }
+
+    .coutdown_digit_box {
+        height: 50px;
+        width: 50px;
+        border-radius: 10px;
+    }
+
+    .accordion-button::after {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media (max-width: 375px) {
+    .flex_xsm_col {
+        flex-direction: column !important;
+    }
+
+    .review_slider_parent {
+        margin-top: 8px;
+    }
+}
+
+@media (max-width: 576px) {
+    .slider_box {
+        padding: 16px;
+    }
+
+    .slider_profile_img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+.text-ceo {
+    color: #4d4d4d;
+    opacity: 50%;
+}

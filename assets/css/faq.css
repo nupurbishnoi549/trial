@@ -1,0 +1,535 @@
+/* FAQ CSS  */
+.pt_123 {
+    padding-top: 123px;
+}
+
+.mb_115 {
+    margin-bottom: 115px;
+}
+
+.accordion {
+    max-width: 1000px;
+    min-width: 1000px;
+    margin: 0 auto;
+}
+
+.faq_questionmark_img {
+    max-width: 337.42px;
+}
+
+.max_w_1440 {
+    max-width: 1440px;
+}
+
+.mw_894 {
+    max-width: 894px;
+}
+
+.faq_heading {
+    background: linear-gradient(175.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.accordion .accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+    min-height: auto !important;
+    box-shadow: none !important;
+}
+
+.accordion .accordion-button:focus {
+    box-shadow: none !important;
+}
+
+.accordion_shadow {
+    box-shadow: 0px 25px 39px -9px #00000017 !important;
+}
+
+.accordion_border {
+    border: 1px solid #0205071a !important;
+}
+
+.accordion .accordion-item {
+    border-radius: 15px;
+    border-color: transparent;
+}
+
+.accordion-item {
+    color: #010101 !important;
+}
+
+.accordion {
+    color: #010101 !important;
+}
+
+.accordion-button {
+    color: #010101 !important;
+}
+
+.accordion .accordion-button {
+    border-radius: 15px !important;
+    padding: 20px !important;
+    transition: all ease-in-out 300ms;
+}
+
+.accordion .accordion-button::after {
+    background-image: url("../images/common/plus.svg");
+    background-position: bottom !important;
+    transform: scale(3) translateY(3px);
+    background-size: 100% !important;
+}
+
+.accordion .accordion-button:not(.collapsed)::after {
+    background-image: url("../images/common/minus.svg");
+    background-position: center;
+    transform: scale(3);
+}
+
+.accordion .accordion-button:not(.collapsed) {
+    padding-bottom: 12px !important;
+}
+
+.accordion .accordion-body {
+    padding-top: 0 !important;
+    padding-left: 20px !important;
+    padding-bottom: 20px !important;
+    padding-right: 20px !important;
+}
+
+.faq_answers {
+    padding-left: 25px;
+    max-width: 868px;
+}
+
+.accordion_question {
+    max-width: 555px;
+}
+
+/* THANKS CSS START HERE */
+.investing {
+    max-width: 211px;
+}
+
+.gap_sm_30 {
+    gap: 30px;
+}
+
+.goggle {
+    max-width: 112px;
+}
+
+.forbes {
+    max-width: 126px;
+}
+
+.thanks_form {
+    border: 1px solid #0101011A;
+    border-radius: 15px;
+    margin-bottom: 12px;
+}
+
+.form_heading {
+    max-width: 500px;
+}
+
+.only_step {
+    max-width: 139px;
+    margin-left: 8px;
+}
+
+.form_input {
+    padding: 12px 30px 12px 30px;
+}
+
+.form_input label {
+    margin: 8px 0;
+}
+
+.form_input input {
+    border: 1px solid #00000033;
+    min-height: 52px;
+}
+
+input:focus-visible {
+    outline: var(--bluish-cyan) auto 1px;
+}
+
+.sign_up_btn {
+    background: linear-gradient(175.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
+    border: 2px solid white;
+    padding: 10px;
+    margin-top: 35px;
+    transition: all ease-in-out 300ms;
+    box-shadow: 0px 4px 25px 0px #00bfff7a;
+}
+
+.get_btn {
+    line-height: 115%;
+}
+
+.sign_up_btn:hover {
+    background: white;
+    color: var(--bluish-cyan) !important;
+    border-color: #00b9ff;
+}
+
+#first-counter {
+    max-width: 340px;
+}
+
+.coutdown_digit_box {
+    border: 2px solid #00a4ff;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.countdown_dots {
+    margin-top: 15px;
+}
+
+.tick {
+    height: 20px;
+    width: 20px;
+}
+
+.blue_tick_shadow {
+    box-shadow: 1px 1px 1px 0px #00000033;
+    border-radius: 100%;
+}
+
+.thanks_ai_arbitrage_text {
+    max-width: 563px;
+}
+
+.bg_form {
+    background-image: url("../images/method-pro/dots-black-bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top: 3px solid #00a4ff;
+}
+
+.bg_faq {
+    background: linear-gradient(180deg, #56ccf2 0%, #2f80ed 100%),
+        linear-gradient(175.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
+
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer_text {
+    max-width: 948px;
+}
+
+.form_box {
+    padding: 0px 76px 75px 76px;
+    border-radius: 24px;
+}
+
+.form_spacing {
+    padding-top: 105px;
+}
+
+.form_content_spacing {
+    padding-top: 105px;
+}
+
+.form_max_w {
+    max-width: 528px;
+}
+
+.ai_winner_bg {
+    background-image: url("../images/method-pro/dots-black-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.forbes_section_padding {
+    padding: 140px 0;
+}
+
+.forbes_image {
+    width: 126px;
+    height: 112px;
+}
+
+.nbc_image {
+    width: 114px;
+    height: 112px;
+}
+
+.fox_news_image {
+    width: 150px;
+    height: 112px;
+}
+
+.wall_street_journal_image {
+    width: 189px;
+    height: 80px;
+}
+
+.the_new_york_times_image {
+    width: 414px;
+    height: 112px;
+}
+
+.mb_150_lg {
+    margin-bottom: 150px;
+}
+
+@media (max-width: 1439.98px) {
+    .accordion {
+        min-width: auto;
+    }
+}
+
+@media (max-width: 1280px) {
+    .pt_123 {
+        padding-top: 50px;
+    }
+
+    .faq_questionmark_img {
+        max-width: 307px;
+    }
+
+    .form_box {
+        padding: 0px 32px 32px 32px;
+    }
+
+    .form_spacing {
+        padding-top: 75px;
+    }
+
+    .form_content_spacing {
+        padding-top: 75px;
+    }
+
+    .goggle {
+        max-width: 90px;
+    }
+
+    .investing {
+        max-width: 120px;
+    }
+
+    .forbes {
+        max-width: 96px;
+    }
+
+    .forbes_section_padding {
+        padding: 120px 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .pt_123 {
+        padding-top: 80px;
+    }
+
+    .form_box {
+        padding: 60px;
+    }
+
+    .bg_form {
+        background-size: cover;
+    }
+
+    .form_box {
+        border-radius: 16px;
+    }
+
+    .form_spacing {
+        padding-top: 48px;
+    }
+
+    .form_content_spacing {
+        padding-top: 0px;
+    }
+
+    .forbes_section_padding {
+        padding: 100px 0;
+    }
+
+    .mb_150_lg {
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 992px) {
+    .max_w_1440 {
+        max-width: 768px;
+    }
+
+    .faq_questionmark_img {
+        max-width: 257px;
+    }
+
+    .faq_answers {
+        padding-left: 20px;
+    }
+
+    .form_box {
+        padding: 48px;
+    }
+
+    .forbes_image {
+        width: 106px;
+        height: 100px;
+    }
+
+    .nbc_image {
+        width: 94px;
+        height: 100px;
+    }
+
+    .fox_news_image {
+        width: 130px;
+        height: 100px;
+    }
+
+    .wall_street_journal_image {
+        width: 169px;
+        height: 80px;
+    }
+
+    .the_new_york_times_image {
+        width: 374px;
+        height: 100px;
+    }
+
+    .forbes_section_padding {
+        padding: 80px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .pt_123 {
+        padding-top: 60px;
+    }
+
+    .form_input {
+        padding: 20px;
+    }
+
+    .pt_80 {
+        padding-top: 80px;
+    }
+
+    .form_input input {
+        min-height: 40px;
+    }
+
+    .form_box {
+        padding: 40px;
+    }
+
+    .accordion .accordion-button::after {
+        transform: scale(2);
+    }
+
+    .accordion .accordion-button:not(.collapsed)::after {
+        transform: scale(2);
+    }
+
+    .gap_12 {
+        gap: 12px;
+    }
+
+    .only_step {
+        max-width: 109px;
+    }
+
+    .sign_up_btn {
+        margin-top: 20px;
+    }
+
+    .mb_100_md {
+        margin-bottom: 64px;
+    }
+
+    .forbes_image {
+        width: 96px;
+        height: 80px;
+    }
+
+    .nbc_image {
+        width: 84px;
+        height: 80px;
+    }
+
+    .fox_news_image {
+        width: 120px;
+        height: 80px;
+    }
+
+    .wall_street_journal_image {
+        width: 159px;
+        height: 80px;
+    }
+
+    .the_new_york_times_image {
+        width: 344px;
+        height: 80px;
+    }
+
+    .forbes_section_padding {
+        padding: 60px 0;
+    }
+}
+
+@media (max-width: 575.58px) {
+    .faq_questionmark_img {
+        max-width: 200px;
+    }
+
+    .pt_50 {
+        padding-top: 50px;
+    }
+
+    .form_box {
+        padding: 32px 14px;
+    }
+
+    .form_spacing {
+        padding-top: 24px;
+    }
+
+    .form_box {
+        border-radius: 0px;
+    }
+
+    .forbes_image {
+        width: 86px;
+        height: 60px;
+    }
+
+    .nbc_image {
+        width: 74px;
+        height: 60px;
+    }
+
+    .fox_news_image {
+        width: 110px;
+        height: 60px;
+    }
+
+    .wall_street_journal_image {
+        width: 149px;
+        height: 60px;
+    }
+
+    .the_new_york_times_image {
+        width: 304px;
+        height: 60px;
+    }
+
+    .mb_100_md {
+        margin-bottom: 48px;
+    }
+}
